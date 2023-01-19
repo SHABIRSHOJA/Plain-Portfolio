@@ -23,6 +23,8 @@ li{
 a{
     text-decoration: none;
     color: slategray;
+    font-family: Georgia;
+    font-size: 16px;
     
 }
 .name{
@@ -30,10 +32,15 @@ a{
     width: 15%;
     background-color: rgb(228, 232, 235);
     position: fixed;
-    margin-left: 30%;
+    margin-left: 20%;
     text-align: center;
-    padding-top: 20px;
-    margin-bottom: 20px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    
+}
+h3{
+    font-size: 17px;
+    font-family: Georgia;
 }
 
 .body{
@@ -50,7 +57,7 @@ a{
     width: 100%;
     background-color: lightskyblue;
     position: fixed;
-    margin-top: 40%;
+    margin-top: 41%;
     text-align: center;
     font-size: 6px;
     padding-top: 10px;
@@ -58,12 +65,12 @@ a{
 }
 
 .contact{
-    width: 20%;
+    width: 30%;
     height: 70%;
     position: fixed;
-    margin-left:30%;
+    margin-left:20%;
     margin-top: 2%;
-    background-color: aliceblue;
+    background-color: honeydew;
     padding-right: 5%;
     padding-left: 2%;
     font-size: 15px;
@@ -71,7 +78,7 @@ a{
 
 .connectwithme{
     width: 15%;
-    height: 25%;
+    height: 22%;
     position: fixed;
     background-color: honeydew;
     margin-left: 60%;
@@ -81,24 +88,23 @@ a{
 }
 
 .Portfolio{
-    width: 25%;
+    width: 35%;
     height: 70%;
     position: fixed;
-    margin-left:30%;
+    margin-left:20%;
     margin-top: 2%;
-    background-color: aliceblue;
+    background-color: honeydew;
     padding-left: 2%;
     font-size: 15px;
 }
 
 .about{
-    width: 37%;
-    height: 65%;
+    width: 35%;
+    height: 57%;
     background-color: honeydew;
     position: fixed;
-    margin-left:17%;
+    margin-left:20%;
     margin-top: 6%;
-    font-size: 15px;
     padding-left: 2%;
 }
 .hrabout{
@@ -114,7 +120,10 @@ a{
     margin-right: 10px;
 }
 p{
-    color:rgb(117, 102, 102);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color:rgb(161, 154, 154);
+
 }
 
 .hrconnectwithme{
@@ -131,6 +140,7 @@ input{
 textarea{
     width: 100%;
     height: 30%;
+    margin-bottom: 5px;
 }
 
 .hrcontact{
@@ -148,7 +158,71 @@ textarea{
 
 .portfolioimage{
     margin-right: 10px;
-    width: 45%;
-    height: 30%;
+    margin-top: 10px;
+    padding: 5px;;
+    width: 43%;
+    height: 20%;
+}
+.car1{
+    height: 25px;
+    width: 194px;
+    margin-top: 67px;
+    margin-left: 5px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
 }
 
+.car2{
+    height: 25px;
+    width: 194px;
+    right: 589px;
+    margin-top: 67px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
+}
+h4{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.iphone{
+    height: 25px;
+    width: 194px;
+    margin-top: 175px;
+    margin-left: 5px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
+}
+.ipod{
+    height: 25px;
+    width: 194px;
+    right: 589px;
+    margin-top: 175px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
+}
+.Bike{
+    height: 25px;
+    width: 194px;
+    margin-top: 275px;
+    margin-left: 5px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
+}
+.Afcar{
+
+    height: 25px;
+    width: 194px;
+    right: 589px;
+    margin-top: 275px;
+    background-color: #4aaaa5;
+    color: whitesmoke;
+    position:fixed;
+}
+h1{
+}
