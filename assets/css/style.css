@@ -1,228 +1,290 @@
-body{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-    /*color: rgb(117, 102, 102);*/
-    color: #4aaaa5;
+header{
+    height: 50px;
+    background-color: aliceblue;
 }
-
-label{
-    color: gray;
+.headercontent h2{
+    width: 200px;
+    height: 31px;
+    padding: 10px;
+    margin-left: 200px;
+    font-size: 4vmin;
+    background-color: rgb(175, 214, 248);
+    color: darkturquoise;
+    position: fixed;
 }
 
 ul{
-    color:red;
-    list-style-type: none;
-    float:right;
-    padding-right: 25%;
+    position: absolute;
+    margin: 10px;
+    right: 250px;   
 }
-li{
+.headercontent li{
     display: inline;
+    
 }
 
 a{
+    font-size: 20px;
     text-decoration: none;
-    color: slategray;
-    font-family: Georgia;
-    font-size: 16px;
-    
-}
-.name{
-    height: 10%;
-    width: 15%;
-    background-color: rgb(228, 232, 235);
-    position: fixed;
-    margin-left: 20%;
-    text-align: center;
-    padding-top: 1px;
-    margin-bottom: 10px;
-    
-}
-h3{
-    font-size: 17px;
-    font-family: Georgia;
+    color: gray;
 }
 
-.body{
-    height: 82%;
-    width: 150%;
-    background-color:deepskyblue;
-    position: fixed;
-    margin-top: 4%;
-    color:#4aaaa5;
-}
-
-.footer{
-    height: 11%;
-    width: 100%;
-    background-color: lightskyblue;
-    position: fixed;
-    margin-top: 41%;
-    text-align: center;
-    font-size: 6px;
-    padding-top: 10px;
-    border-top: 5px solid orange;
-}
-
-.contact{
-    width: 30%;
-    height: 70%;
-    position: fixed;
-    margin-left:20%;
-    margin-top: 2%;
-    background-color: honeydew;
-    padding-right: 5%;
-    padding-left: 2%;
-    font-size: 15px;
-}
-
-.connectwithme{
-    width: 15%;
-    height: 22%;
-    position: fixed;
-    background-color: honeydew;
-    margin-left: 60%;
-    margin-top: 6%;
-    font-size: 10px;
-    padding-left: 15px;
-}
-
-.Portfolio{
-    width: 35%;
-    height: 70%;
-    position: fixed;
-    margin-left:20%;
-    margin-top: 2%;
-    background-color: honeydew;
-    padding-left: 2%;
-    font-size: 15px;
+.section{
+    width: 1288px;
+    height: 500px;
+    background-color: deepskyblue;
+    display: flex;
 }
 
 .about{
-    width: 35%;
-    height: 57%;
-    background-color: honeydew;
-    position: fixed;
-    margin-left:20%;
-    margin-top: 6%;
-    padding-left: 2%;
+    margin: 50px;
+    width: 500px;
+    height: 300px;
+    margin-left: 200px;
+    background-color: antiquewhite;
 }
-.hrabout{
-    margin: 0;
-    width: 90%;
-    opacity: 50%;
-    background-color: rgb(117, 102, 102);
+
+.about h1{
+    font-size: 40px;  
+    margin: 10px;  
+    color: darkturquoise;
 }
-.aboutimage{
-    height: 80%;
-    width: 40%;
-    float: left;
-    margin-right: 10px;
+
+.about hr{
+    margin-left: 10px;
+    color: cadetblue;
+    width: 450px;
+    opacity: 40%;
 }
-p{
+
+.about p{
+    margin: 10px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    color:rgb(161, 154, 154);
+    font-size: 16px;
+    line-height: 20px;
+    
 
 }
 
-.hrconnectwithme{
-    margin: 0;
-    width: 90%;
-    opacity: 50%;
-    background-color: rgb(117, 102, 102);
+.aboutimg{
+    margin: 5px;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+.section2{
+    margin: 50px;
+    width: 250px;
+    height: 150px;
+    background-color: antiquewhite;
 }
 
-input{
-    width: 100%;
+.section2 h1{
+    font-size: 30px;  
+    margin: 5px; 
+    color: darkturquoise;
 }
 
-textarea{
-    width: 100%;
-    height: 30%;
-    margin-bottom: 5px;
+.section2 hr{
+    margin-left: 10px;
+    color: cadetblue;
+    width: 200px;
+    opacity: 40%;
 }
 
-.hrcontact{
-    margin: 1%;
-    width: 100%;
-    opacity: 50%;
-    background-color: rgb(117, 102, 102);
+.section2 a{
+    margin-left: 20px;
 }
-.hrportfolio{
-    margin: 1%;
-    width: 90%;
-    opacity: 50%;
-    background-color: rgb(117, 102, 102);
+
+footer{
+    background-color: aqua;
+    height: 43px;
+    text-align: center;
+}
+
+footer h1{
+    padding: 10px;
+    color: rgb(90, 129, 129);
+}
+
+.portfolio{
+    margin: 50px;
+    width: 500px;
+    height: 420px;
+    background-color:antiquewhite;
+    margin-left: 200px;
+}
+
+.portfolio h1 {
+    font-size: 40px;  
+    margin: 10px; 
+    color: darkturquoise;
+}
+
+.portfolio hr {
+    margin-left: 10px;
+    color: cadetblue;
+    width: 450px;
+    opacity: 40%;
+}
+
+.box{
+    display: grid;
+    background-color: cadetblue;
+    color: aliceblue;
+    position: fixed;
+}
+
+.box1{
+    grid-column: 1 / 13;
+    grid-row: 1; 
+}
+
+.box2{
+    grid-column: 2 / 13;
+    grid-row: 1; 
+}
+
+.box3{
+    grid-column: 1 / 13;
+    grid-row: 2; 
+}
+
+.box4{
+    grid-column: 2 / 13;
+    grid-row: 2; 
+}
+.box5{
+    grid-column: 1 / 13;
+    grid-row: 3; 
+}
+
+.box5{
+    grid-column: 2 / 13;
+    grid-row: 3; 
 }
 
 .portfolioimage{
-    margin-right: 10px;
-    margin-top: 10px;
-    padding: 5px;;
-    width: 43%;
-    height: 20%;
-}
-.car1{
-    height: 25px;
-    width: 194px;
-    margin-top: 67px;
-    margin-left: 5px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
+    margin: 5px;
+    padding-left: 20px;
+    height: 100px;
+    width: 200px;
 }
 
-.car2{
-    height: 25px;
-    width: 194px;
-    right: 589px;
-    margin-top: 67px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
-}
-h4{
-    text-align: center;
-    margin-top: 5px;
+.contact{
+    margin: 50px;
+    width: 500px;
+    height: 420px;
+    background-color:antiquewhite;
+    margin-left: 200px;
 }
 
-.iphone{
-    height: 25px;
-    width: 194px;
-    margin-top: 175px;
-    margin-left: 5px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
+.contact h1{
+    font-size: 40px;  
+    margin: 10px; 
+    color: darkturquoise;
 }
-.ipod{
-    height: 25px;
-    width: 194px;
-    right: 589px;
-    margin-top: 175px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
-}
-.Bike{
-    height: 25px;
-    width: 194px;
-    margin-top: 275px;
-    margin-left: 5px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
-}
-.Afcar{
 
-    height: 25px;
-    width: 194px;
-    right: 589px;
-    margin-top: 275px;
-    background-color: #4aaaa5;
-    color: whitesmoke;
-    position:fixed;
+.contact hr {
+    margin-left: 10px;
+    color: cadetblue;
+    width: 450px;
+    opacity: 40%;
 }
-h1{
+
+.contact label{
+    font-size: 20px;
+    margin: 10px;
 }
+
+.contact input{
+    margin:5px;
+    width: 450px;
+}
+
+textarea{
+    margin:5px;
+    width: 450px;
+    height: 110px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .main {margin-right: 0px;
+            padding: 0px;}
+    .headercontent h2 {
+        width: 200px;
+        height: 31px;
+        font-size: 4vmin;
+        background-color: rgb(175, 214, 248);
+        color: darkturquoise;
+        margin: 0px;
+        position: relative;
+    }
+    ul{
+        top: 10%;
+    }
+
+    .section{
+        width: 500px;
+        height: 1000px;
+        background-color: deepskyblue;
+        display: flex;
+    }
+
+    .about{
+        margin: 0px;
+        padding: 0px;
+        margin-top: 40px;
+        width: 400px;
+        height: 400px;
+        background-color: antiquewhite;
+    }
+
+    .section2{ 
+        margin: 0px;
+        margin-top: 850px;
+        margin-left: -300px;
+        width: 250px;
+        height: 150px;
+        background-color: antiquewhite;
+    }
+
+    .portfolio{
+        margin: 0px;
+        width: 300px;
+        height: 800px;
+        background-color:antiquewhite;
+        margin-top: 40px;
+    }
+
+    .portfolioimage{
+        margin: 5px;
+        height: 100px;
+        width: 200px;
+    }
+
+    .contact{
+        margin: 0px;
+        margin-top: 50px;
+        width: 300px;
+        height: 420px;
+        background-color:antiquewhite;
+    }
+
+    .contact input{
+        margin:5px;
+        width: 200px;
+    }
+    
+    textarea{
+        margin:5px;
+        width: 200px;
+        height: 110px;
+    }
+
+    .contact hr{
+        width: 250px;
+    }
+  }
+
